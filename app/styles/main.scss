@@ -1,0 +1,40 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+$headerColor: #337ab7;
+$FooterColor: #337ab7;
+
+
+.header {
+    background:none ;
+    height: 77px;
+}
+.footer {
+    background-color: $FooterColor;
+    height: 50px;
+    bottom: 0;
+    position: fixed;
+    width:calc(100%);
+}
+.login-style{
+margin-top:130px;
+	
+}
+.logo{
+    height:100px;
+    width:100px;
+}
+body{
+    background-image:url(http://www.wallpapersxl.com/wallpapers/800x600/pink-stripes/44559/pink-stripes-desktop-backgrounds-puter-44559.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar {
+    background: none;
+    border: none;
+   
+    
+   
+}
